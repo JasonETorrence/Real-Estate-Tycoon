@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Real_Estate_Tycoon"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Real_Estate_Tycoon">
+				<Option output="C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Real_Estate_Tycoon.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 Real_Estate_Tycoon"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Real_Estate_Tycoon/fast">
+				<Option output="C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Real_Estate_Tycoon.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 Real_Estate_Tycoon/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Player/Player.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Player/Player.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Apartment Complex/ApartmentComplex.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Apartment Complex/ApartmentComplex.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Business Complex/BusinessComplex.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Business Complex/BusinessComplex.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/House/House.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/House/House.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Property.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Property.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Tenant/Business/Business.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Tenant/Business/Business.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Tenant/Civilian/Civilian.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Tenant/Civilian/Civilian.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Tenant/Tenant.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Tenant/Tenant.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Utilities/Utilities.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Utilities/Utilities.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/main.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

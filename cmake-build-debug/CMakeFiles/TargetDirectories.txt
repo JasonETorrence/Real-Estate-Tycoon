@@ -1,0 +1,3 @@
+C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir
+C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sarge/CLionProjects/Real Estate Tycoon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
