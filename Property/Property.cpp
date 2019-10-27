@@ -31,7 +31,6 @@ Property::Property(Property *pProperty) {
     value = pProperty->getValue();
     mortgage = pProperty->getMortgage();
     location = pProperty->getLocation();
-    Tenants
 }
 
 Property & Property::operator=(Property right){
@@ -64,6 +63,14 @@ double Property::getMortgage(){
 
 double Property::getPropertyTax(){
     return this->propertyTax;
+}
+
+Tenant* Property::getTenants(){
+    Tenant newTenants[numOfTenants];
+    for(int i = 0; i < numOfTenants; i++){
+        newTenants[i] = &tenants[i];
+    }
+    return newTenants;
 }
 
 void Property::deleteArrayOfProperties(Property** properties, int size){
@@ -101,24 +108,24 @@ void Property::increasePriceViaGentrification(){
 }
 
 
-Property* Property::remove(Property ** properties, int index, int size){
+Property Property::remove(Property * properties, int index, int size){
     Property newGroup[size];
     int j = 0;
     for(int i = 0; i < size; i++, j++){
         if(j != index){
-            newGroup[i] = *properties[j];
+            newGroup[i] = properties[j];
         }else{
             j++;
         }
     }
-    properties = reinterpret_cast<Property **>(&newGroup);
+    properties = newGroup;
     return properties[index];
 }
 
-Property* Property::append(Property ** properties, Property* newProp, int size){
+Property* Property::append(Property * properties, Property* newProp, int size){
     Property newProperties[size + 1];
     for(int i = 0; i < size; i++) {
-        newProperties[i] = *properties[i];
+        newProperties[i] = properties[i];
     }
     newProperties[size] = *newProp;
 }

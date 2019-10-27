@@ -18,12 +18,13 @@ public:
 
     Tenant();
     ~Tenant();
+    Tenant(Tenant *pTenant);
 
     double payRent();
     double pay();
     void moveOut();
     void refuseToPay();
-
+    void haveAllTenantsPayRent(Property *properties);
 };
 
 

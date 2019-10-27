@@ -12,7 +12,7 @@ class Player {
 
 public:
     double bank;
-    Property ** properties;
+    Property * properties;
     int numOfProperties;
 
     Player();

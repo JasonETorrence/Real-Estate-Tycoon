@@ -17,7 +17,7 @@ public:
     double mortgage;
     double propertyTax;
     int numOfTenants;
-    Tenant* Tenants;
+    Tenant* tenants;
 
     Property();
 
@@ -36,10 +36,11 @@ public:
     void reducePriceViaDisaster();
     void reducePriceViaSMC();
     void increasePriceViaGentrification();
-    static Property* remove(Property **properties, int index, int size);
-    static Property *append(Property **properties, Property* newProp, int size);
+    static Property remove(Property *properties, int index, int size);
+    static Property *append(Property *properties, Property* newProp, int size);
     std::string toString();
 
+    Tenant *getTenants();
 };
 
 

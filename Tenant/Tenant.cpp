@@ -12,6 +12,10 @@ Tenant::Tenant() {
 
 Tenant::~Tenant() = default;
 
+Tenant::Tenant(Tenant *pTenant) {
+
+}
+
 double Tenant::payRent(){
     if(rentedLocation->getMortgage() > budget){
         if(agreeability > 2){
@@ -36,6 +40,8 @@ void Tenant::refuseToPay(){
     std::cout << "The tenant in " + rentedLocation->toString() + " refuses to pay" +
     " their rent.";
 }
+
+
 
 void Tenant::haveAllTenantsPayRent(Property* properties){
 
