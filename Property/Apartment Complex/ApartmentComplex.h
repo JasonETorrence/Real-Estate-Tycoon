@@ -6,8 +6,14 @@
 #define REAL_ESTATE_TYCOON_APARTMENTCOMPLEX_H
 
 
-class ApartmentComplex {
+#include "../Property.h"
+#include "../../Tenant/Civilian/Civilian.h"
 
+class ApartmentComplex : public Property{
+public:
+    ApartmentComplex();
+    void assignRandomCivilians();
+    void removeTenant(int location);
 };
 
 

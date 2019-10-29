@@ -8,13 +8,13 @@
 
 #include "../../Tenant/Business/Business.h"
 
-class BusinessComplex : Property{
+class BusinessComplex : public Property{
 
 public:
 
     BusinessComplex();
+    void assignRandomBusinesses();
 
-    Business* businesses;
 };
 
 

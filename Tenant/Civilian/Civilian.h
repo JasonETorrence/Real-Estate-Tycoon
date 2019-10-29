@@ -8,11 +8,11 @@
 
 #include "../Tenant.h"
 
-class Civilian : Tenant{
+class Civilian : public Tenant{
 
 public:
     Civilian();
-
+    ~Civilian();
 };
 
 

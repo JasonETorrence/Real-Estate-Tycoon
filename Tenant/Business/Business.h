@@ -6,7 +6,12 @@
 #define REAL_ESTATE_TYCOON_BUSINESS_H
 
 
-class Business {
+#include "../Tenant.h"
+
+class Business : public Tenant{
+public:
+    Business();
+    ~Business();
 
 };
 

@@ -8,6 +8,19 @@
 
 BusinessComplex::BusinessComplex(){
     value = (rand() % 200000) + 400000;
+    mortgage = (value * 0.001) + (rand() % 5000);
+    maxRent = 10000;
+    if(mortgage > 5000){
+        mortgage = 5000;
+    }
+    numOfHomes = (rand() % 4) + 2;
+    numOfTenants = numOfHomes;
+    rent = mortgage/numOfHomes;
+    assignRandomBusinesses();
 }
 
-#include "BusinessComplex.h"
+void BusinessComplex::assignRandomBusinesses(){
+    for(int i = 0; i < numOfHomes; i++){
+        tenants[i] = Business();
+    }
+}

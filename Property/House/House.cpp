@@ -8,9 +8,14 @@
 House::House(){
     value = (rand() % 500000) + 100000;
     mortgage = (value * 0.01) + ((rand() % 5000) - (value * 0.01));
+    maxRent = 5000;
+    rent = mortgage;
     if(mortgage > 5000){
         mortgage = 5000;
     }
+    numOfHomes = 1;
+    numOfTenants = 1;
+    assignRandomCivilian();
 }
 
 House::~House(){
@@ -24,4 +29,6 @@ void House::assignRandomCivilian(){
 
 void House::removeTenant(){
     delete &(tenant);
+    numOfTenants = 0;
+    tenant = Civilian();
 }

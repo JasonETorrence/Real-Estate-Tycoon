@@ -8,9 +8,21 @@ add_executable(
         main.cpp
         Player/Player.cpp
         Player/Player.h
-        Property/Property.cpp
         Property/Property.h
-        Tenant/Tenant.cpp
         Tenant/Tenant.h
+        Tenant/Tenant.cpp
+        Property/Property.cpp
         Utilities/Utilities.cpp
-        Utilities/Utilities.h Property/House/House.cpp Property/House/House.h "Property/Business Complex/BusinessComplex.cpp" "Property/Business Complex/BusinessComplex.h" "Property/Apartment Complex/ApartmentComplex.cpp" "Property/Apartment Complex/ApartmentComplex.h" Tenant/Civilian/Civilian.cpp Tenant/Civilian/Civilian.h Tenant/Business/Business.cpp Tenant/Business/Business.h)
+        Utilities/Utilities.h
+        Property/House/House.cpp
+        Property/House/House.h
+        "Property/Business Complex/BusinessComplex.cpp"
+        "Property/Business Complex/BusinessComplex.h"
+        "Property/Apartment Complex/ApartmentComplex.cpp"
+        "Property/Apartment Complex/ApartmentComplex.h"
+        Tenant/Civilian/Civilian.cpp
+        Tenant/Civilian/Civilian.h
+        Tenant/Business/Business.cpp
+        Tenant/Business/Business.h
+        Driver.cpp
+        Driver.h)

@@ -9,7 +9,7 @@
 #include "../Property.h"
 #include "../../Tenant/Civilian/Civilian.h"
 
-class House : Property{
+class House : public Property{
 
 public:
     Civilian tenant;

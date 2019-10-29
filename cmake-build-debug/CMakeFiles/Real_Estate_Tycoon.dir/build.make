@@ -82,22 +82,9 @@ CMakeFiles/Real_Estate_Tycoon.dir/Player/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Real_Estate_Tycoon.dir/Player/Player.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Player\Player.cpp" -o CMakeFiles\Real_Estate_Tycoon.dir\Player\Player.cpp.s
 
-CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj: CMakeFiles/Real_Estate_Tycoon.dir/flags.make
-CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj: ../Property/Property.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\sarge\CLionProjects\Real Estate Tycoon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Real_Estate_Tycoon.dir\Property\Property.cpp.obj -c "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Property\Property.cpp"
-
-CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Property\Property.cpp" > CMakeFiles\Real_Estate_Tycoon.dir\Property\Property.cpp.i
-
-CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Property\Property.cpp" -o CMakeFiles\Real_Estate_Tycoon.dir\Property\Property.cpp.s
-
 CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.obj: CMakeFiles/Real_Estate_Tycoon.dir/flags.make
 CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.obj: ../Tenant/Tenant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\sarge\CLionProjects\Real Estate Tycoon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\sarge\CLionProjects\Real Estate Tycoon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Real_Estate_Tycoon.dir\Tenant\Tenant.cpp.obj -c "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Tenant\Tenant.cpp"
 
 CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.i: cmake_force
@@ -107,6 +94,19 @@ CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.i: cmake_force
 CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Tenant\Tenant.cpp" -o CMakeFiles\Real_Estate_Tycoon.dir\Tenant\Tenant.cpp.s
+
+CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj: CMakeFiles/Real_Estate_Tycoon.dir/flags.make
+CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj: ../Property/Property.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\sarge\CLionProjects\Real Estate Tycoon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Real_Estate_Tycoon.dir\Property\Property.cpp.obj -c "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Property\Property.cpp"
+
+CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Property\Property.cpp" > CMakeFiles\Real_Estate_Tycoon.dir\Property\Property.cpp.i
+
+CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Property\Property.cpp" -o CMakeFiles\Real_Estate_Tycoon.dir\Property\Property.cpp.s
 
 CMakeFiles/Real_Estate_Tycoon.dir/Utilities/Utilities.cpp.obj: CMakeFiles/Real_Estate_Tycoon.dir/flags.make
 CMakeFiles/Real_Estate_Tycoon.dir/Utilities/Utilities.cpp.obj: ../Utilities/Utilities.cpp
@@ -186,37 +186,52 @@ CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Business/Business.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Business/Business.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Tenant\Business\Business.cpp" -o CMakeFiles\Real_Estate_Tycoon.dir\Tenant\Business\Business.cpp.s
 
+CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.obj: CMakeFiles/Real_Estate_Tycoon.dir/flags.make
+CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.obj: ../Driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\sarge\CLionProjects\Real Estate Tycoon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Real_Estate_Tycoon.dir\Driver.cpp.obj -c "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Driver.cpp"
+
+CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Driver.cpp" > CMakeFiles\Real_Estate_Tycoon.dir\Driver.cpp.i
+
+CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\sarge\CLionProjects\Real Estate Tycoon\Driver.cpp" -o CMakeFiles\Real_Estate_Tycoon.dir\Driver.cpp.s
+
 # Object files for target Real_Estate_Tycoon
 Real_Estate_Tycoon_OBJECTS = \
 "CMakeFiles/Real_Estate_Tycoon.dir/main.cpp.obj" \
 "CMakeFiles/Real_Estate_Tycoon.dir/Player/Player.cpp.obj" \
-"CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj" \
 "CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.obj" \
+"CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj" \
 "CMakeFiles/Real_Estate_Tycoon.dir/Utilities/Utilities.cpp.obj" \
 "CMakeFiles/Real_Estate_Tycoon.dir/Property/House/House.cpp.obj" \
 "CMakeFiles/Real_Estate_Tycoon.dir/Property/Business_Complex/BusinessComplex.cpp.obj" \
 "CMakeFiles/Real_Estate_Tycoon.dir/Property/Apartment_Complex/ApartmentComplex.cpp.obj" \
 "CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Civilian/Civilian.cpp.obj" \
-"CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Business/Business.cpp.obj"
+"CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Business/Business.cpp.obj" \
+"CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.obj"
 
 # External object files for target Real_Estate_Tycoon
 Real_Estate_Tycoon_EXTERNAL_OBJECTS =
 
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/main.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Player/Player.cpp.obj
-Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Tenant.cpp.obj
+Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Property/Property.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Utilities/Utilities.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Property/House/House.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Property/Business_Complex/BusinessComplex.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Property/Apartment_Complex/ApartmentComplex.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Civilian/Civilian.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Tenant/Business/Business.cpp.obj
+Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.obj
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/build.make
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/linklibs.rsp
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/objects1.rsp
 Real_Estate_Tycoon.exe: CMakeFiles/Real_Estate_Tycoon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\sarge\CLionProjects\Real Estate Tycoon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Real_Estate_Tycoon.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\sarge\CLionProjects\Real Estate Tycoon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Real_Estate_Tycoon.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Real_Estate_Tycoon.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

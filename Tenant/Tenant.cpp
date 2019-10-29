@@ -6,43 +6,33 @@
 #include <iostream>
 #include "Tenant.h"
 
-Tenant::Tenant() {
-    agreeability = rand() % 6;
+Tenant::Tenant(){
+    budget = (rand() % 4501) + 500;
+    agreeability = (rand() % 5) + 1;
 }
 
 Tenant::~Tenant() = default;
 
-Tenant::Tenant(Tenant *pTenant) {
-
+Tenant::Tenant(const Tenant &aTenant) noexcept{
+    budget = aTenant.budget;
+    agreeability = aTenant.agreeability;
 }
 
-double Tenant::payRent(){
-    if(rentedLocation->getMortgage() > budget){
+double Tenant::payRent(double rent){
+    if(rent > budget){
         if(agreeability > 2){
+            std::cout << "A tenant moves out due to rent being too high." << std::endl;
             moveOut();
         }else{
-            refuseToPay();
+            std::cout << "A tenant resfuses to pay." << std::endl;
+            return 0;
         }
     }else{
-        pay();
+        std::cout << "A tenant pays: $" << rent << std::endl;
+        return rent;
     }
-}
-
-double Tenant::pay(){
- return rentedLocation->getMortgage();
 }
 
 void Tenant::moveOut(){
     delete(this);
-}
-
-void Tenant::refuseToPay(){
-    std::cout << "The tenant in " + rentedLocation->toString() + " refuses to pay" +
-    " their rent.";
-}
-
-
-
-void Tenant::haveAllTenantsPayRent(Property* properties){
-
 }

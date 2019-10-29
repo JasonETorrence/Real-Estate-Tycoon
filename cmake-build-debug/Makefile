@@ -122,6 +122,33 @@ Real_Estate_Tycoon/fast:
 	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/build
 .PHONY : Real_Estate_Tycoon/fast
 
+Driver.obj: Driver.cpp.obj
+
+.PHONY : Driver.obj
+
+# target to build an object file
+Driver.cpp.obj:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.obj
+.PHONY : Driver.cpp.obj
+
+Driver.i: Driver.cpp.i
+
+.PHONY : Driver.i
+
+# target to preprocess a source file
+Driver.cpp.i:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.i
+.PHONY : Driver.cpp.i
+
+Driver.s: Driver.cpp.s
+
+.PHONY : Driver.s
+
+# target to generate assembly for a file
+Driver.cpp.s:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Driver.cpp.s
+.PHONY : Driver.cpp.s
+
 Player/Player.obj: Player/Player.cpp.obj
 
 .PHONY : Player/Player.obj
@@ -401,6 +428,9 @@ help:
 	@echo ... Real_Estate_Tycoon
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Driver.obj
+	@echo ... Driver.i
+	@echo ... Driver.s
 	@echo ... Player/Player.obj
 	@echo ... Player/Player.i
 	@echo ... Player/Player.s

@@ -6,6 +6,7 @@
 #include "Civilian.h"
 
 Civilian::Civilian() {
-    budget = (rand() % 1000) + 500;
+    budget = (rand() % 4501) + 500;
 }
 
+Civilian::~Civilian() = default;

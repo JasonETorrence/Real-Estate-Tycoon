@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Driver.cpp">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Driver.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
 		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Player/Player.cpp">
 			<Option target="Real_Estate_Tycoon"/>
 		</Unit>

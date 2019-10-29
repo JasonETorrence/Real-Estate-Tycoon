@@ -11,14 +11,39 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e82fa5d-56a7-4720-951d-8e041bcd908b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0e82fa5d-56a7-4720-951d-8e041bcd908b" name="Default Changelist" comment="updated some stuff bro">
+      <change afterPath="$PROJECT_DIR$/Driver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/Apartment Complex/ApartmentComplex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Apartment Complex/ApartmentComplex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/Apartment Complex/ApartmentComplex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Apartment Complex/ApartmentComplex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/House/House.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Property/House/House.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/House/House.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/House/House.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Property/Property.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Property.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Property/Property.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Property.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tenant/Business/Business.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Business/Business.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tenant/Business/Business.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Business/Business.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tenant/Civilian/Civilian.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Civilian/Civilian.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tenant/Civilian/Civilian.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Civilian/Civilian.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tenant/Tenant.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Tenant.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tenant/Tenant.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Tenant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/Utilities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/Utilities.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/Utilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/Utilities.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Real_Estate_Tycoon.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Real_Estate_Tycoon.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +84,6 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="showServicesTree" value="false" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,8 +94,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571854783822</updated>
-      <workItem from="1571854784904" duration="46179000" />
+      <workItem from="1571854784904" duration="76980000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated player class to handle better, updated property and tenant to better handle as super classes.">
+      <created>1572205600164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572205600164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +119,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated player class to handle better, updated property and tenant to better handle as super classes." />
+    <MESSAGE value="updated some stuff bro" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated some stuff bro" />
   </component>
 </project>

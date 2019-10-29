@@ -8,7 +8,6 @@
 
 Player::Player(){
     bank = 500000;
-    properties = nullptr;
     numOfProperties = 0;
 }
 
@@ -31,8 +30,8 @@ double Player::getBank(){
 }
 
 void Player::printPropertiesToSTDOut(){
-    std::cout << "You own the follow properties:" << std::endl;
+    std::cout << "You own the following properties:" << std::endl;
     for(int i = 0; i < numOfProperties; i++){
-
+        std::cout << "(" << i+1 << ") "<< properties[i].toString() << std::endl;
     }
 }

@@ -5,26 +5,20 @@
 #ifndef REAL_ESTATE_TYCOON_TENANT_H
 #define REAL_ESTATE_TYCOON_TENANT_H
 
-
-#include "../Property/Property.h"
-
 class Tenant {
-
 
 public:
     double budget;
     int agreeability;
-    Property * rentedLocation;
 
     Tenant();
     ~Tenant();
-    Tenant(Tenant *pTenant);
 
-    double payRent();
-    double pay();
+    Tenant(const Tenant &aTenant) noexcept;
+
+    double payRent(double rent);
     void moveOut();
-    void refuseToPay();
-    void haveAllTenantsPayRent(Property *properties);
+
 };
 
 
