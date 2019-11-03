@@ -14,6 +14,7 @@ public:
 
     BusinessComplex();
     void assignRandomBusinesses();
+    void removeTenant(int location);
 
 };
 

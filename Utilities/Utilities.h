@@ -8,5 +8,5 @@
 
 double getUserInputAsDouble(double upperBound, double lowerBound);
 int getUserInputAsInt(int upperBound, int lowerBound);
-
+int* fillAndShuffleIntPointer(int* array, int length);
 #endif //REAL_ESTATE_TYCOON_UTILITIES_H

@@ -24,7 +24,7 @@ double Tenant::payRent(double rent){
             std::cout << "A tenant moves out due to rent being too high." << std::endl;
             moveOut();
         }else{
-            std::cout << "A tenant resfuses to pay." << std::endl;
+            std::cout << "A tenant refuses to pay." << std::endl;
             return 0;
         }
     }else{

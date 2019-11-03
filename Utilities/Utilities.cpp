@@ -40,3 +40,18 @@ double getUserInputAsDouble(double upperBound, double lowerBound){
     return userInputAsDouble;
 
 }
+
+int* fillAndShuffleIntPointer(int* array, int length){
+    array = new int[length];
+    for(int i = 0; i < length; i++){
+        array[i] = i;
+    }
+    for(int i = 0; i < length; i++){
+        int randomLocation = rand() % length;
+        int placeholder = array[i];
+        array[i] = array[randomLocation];
+        array[randomLocation] = placeholder;
+    }
+    return array;
+}
+

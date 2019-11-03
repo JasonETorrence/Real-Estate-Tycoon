@@ -6,40 +6,44 @@
 #define REAL_ESTATE_TYCOON_PROPERTY_H
 
 #include "../Tenant/Tenant.h"
+#include "../Utilities/TotallyNotAVector.h"
 #include <string>
 
 class Property {
 
 public:
     double value;
-    char* location;
+    std::string location;
     double mortgage;
     double propertyTax;
     double maxRent;
     double rent;
+    double mortgageLeft;
     int numOfTenants;
     int numOfHomes;
-    Tenant* tenants;
+    TotallyNotAVector<Tenant> * tenants;
 
     Property();
     ~Property();
     Property(Property *pProperty);
 
     Property & operator=(const Property &right);
-
     double getValue() const;
-    char* getLocation() const;
+    std::string getLocation() const;
     double getMortgage() const;
     double getPropertyTax() const;
-
-    static void deleteArrayOfProperties(Property **properties, int size);
+    double getMortgageLeft() const;
     void reducePriceViaDisaster();
     void reducePriceViaSMC();
     void increasePriceViaGentrification();
-    static Property remove(Property *properties, int index, int size);
-    static Property *append(Property *properties, Property* newProp, int size);
     std::string toString();
     void changeRent(double amount);
+    static double haveAllTenantsPayRent(TotallyNotAVector<Property> * gameProperties);
+    static double findAndUpdateTotalMortgage(TotallyNotAVector<Property> * gameProperties);
+    static double findTotalPropertyTax(TotallyNotAVector<Property>* properties, int numOfProperties);
+    void updateTotalMortgage(double amount);
+
+
 };
 
 

@@ -18,7 +18,7 @@ public:
     ~House();
 
     void assignRandomCivilian();
-    void removeTenant();
+    void removeTenant(int location);
 };
 
 

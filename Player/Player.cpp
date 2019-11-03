@@ -8,21 +8,13 @@
 
 Player::Player(){
     bank = 500000;
-    numOfProperties = 0;
+    properties = new TotallyNotAVector<Property>();
 }
 
-Player::~Player(){};
+Player::~Player() = default;
 
 void Player::updateBank(double change){
     bank += change;
-}
-
-bool Player::buyProperty(Property * aProperty){
-    if(bank >= aProperty->getValue()){
-        Property::append(properties, aProperty, numOfProperties);
-    }else{
-        std::cout << "You lack the money to buy that property." << std::endl;
-    }
 }
 
 double Player::getBank(){
@@ -31,7 +23,12 @@ double Player::getBank(){
 
 void Player::printPropertiesToSTDOut(){
     std::cout << "You own the following properties:" << std::endl;
-    for(int i = 0; i < numOfProperties; i++){
-        std::cout << "(" << i+1 << ") "<< properties[i].toString() << std::endl;
+    for(int i = 0; i < properties->length(); i++){
+        std::cout << "(" << i+1 << ") "<< properties->get(i).toString() << std::endl;
     }
+}
+
+void Player::clearAllData(){
+    delete properties;
+    delete &properties;
 }

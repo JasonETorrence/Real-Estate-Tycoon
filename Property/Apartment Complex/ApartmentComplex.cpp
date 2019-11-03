@@ -13,18 +13,18 @@ ApartmentComplex::ApartmentComplex(){
     }
     numOfHomes = (rand() % 6) + 5;
     numOfTenants = numOfHomes;
-    assignRandomCivilians();
     rent = mortgage / numOfHomes;
+    mortgageLeft = mortgage;
+    assignRandomCivilians();
 }
 
 void ApartmentComplex::assignRandomCivilians(){
-    tenants = new Tenant[numOfHomes];
     for(int i = 0; i < numOfHomes; i++){
-        tenants[i] = Civilian();
+        auto * aCivilian = new Civilian();
+        tenants->append(*aCivilian);
     }
 }
 
 void ApartmentComplex::removeTenant(int location){
-    delete &(tenants[location]);
-    tenants[location] = Civilian();
+    tenants->remove(location);
 }

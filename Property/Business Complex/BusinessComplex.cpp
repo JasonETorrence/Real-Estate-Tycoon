@@ -16,11 +16,16 @@ BusinessComplex::BusinessComplex(){
     numOfHomes = (rand() % 4) + 2;
     numOfTenants = numOfHomes;
     rent = mortgage/numOfHomes;
+    mortgageLeft = mortgage;
     assignRandomBusinesses();
 }
 
 void BusinessComplex::assignRandomBusinesses(){
     for(int i = 0; i < numOfHomes; i++){
-        tenants[i] = Business();
+        tenants->append( Business());
     }
+}
+
+void BusinessComplex::removeTenant(int location) {
+    tenants->remove(location);
 }

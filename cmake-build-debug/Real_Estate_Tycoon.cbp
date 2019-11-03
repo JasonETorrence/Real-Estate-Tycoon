@@ -136,6 +136,9 @@
 		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Tenant/Tenant.h">
 			<Option target="Real_Estate_Tycoon"/>
 		</Unit>
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Utilities/TotallyNotAVector.h">
+			<Option target="Real_Estate_Tycoon"/>
+		</Unit>
 		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Utilities/Utilities.cpp">
 			<Option target="Real_Estate_Tycoon"/>
 		</Unit>

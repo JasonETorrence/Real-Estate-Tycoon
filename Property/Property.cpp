@@ -4,9 +4,9 @@
 
 #include <cstdlib>
 #include <string>
-#include <cstring>
 #include <iostream>
 #include "Property.h"
+#include "../Utilities/TotallyNotAVector.h"
 
 
 using namespace std;
@@ -14,22 +14,22 @@ using namespace std;
 Property::Property(){
     bool S = rand() %2;
     bool W = rand() %2;
-    location = new char[3];
     if(S && W){
-        strcpy(location, "SW");
+        location = "SW";
     }else if(S) {
-        strcpy(location, "SE");
+        location= "SE";
     }else if(W) {
-        strcpy(location, "NW");
+        location= "NW";
     }else{
-        strcpy(location, "MW");
+        location= "MW";
     }
     propertyTax = 0.015;
     mortgage = 0.0;
+    mortgageLeft = 0.0;
     numOfTenants = 0;
     value = 0;
     numOfHomes = 0;
-    tenants = nullptr;
+    tenants = new TotallyNotAVector<Tenant>();
     maxRent = 0;
     rent = 0;
 }
@@ -59,15 +59,12 @@ Property & Property::operator=(const Property &right){
     return (*this);
 }
 
-Property::~Property(){
-    delete(location);
-}
+Property::~Property() = default;
 
 double Property::getValue() const{
     return value;
 }
-
-char* Property::getLocation() const{
+ string Property::getLocation() const{
     return this->location;
 }
 
@@ -79,22 +76,16 @@ double Property::getPropertyTax() const{
     return this->propertyTax;
 }
 
-
-void Property::deleteArrayOfProperties(Property** properties, int size){
-    for(int i = 0; i < size; i++){
-        delete(properties[i]->location);
-        delete(properties[i]);
-    }
-    delete(properties);
+double Property::getMortgageLeft() const{
+    return this->mortgageLeft;
 }
-
 void Property::reducePriceViaDisaster(){
     std::cout << "A property of value: $" << std::to_string(value);
-    if(strcmp(location, "SE") != 0){
+    if(location == "SE"){
         value *= 0.5;
-    }else if(strcmp(location, "MW") != 0){
+    }else if(location == "MW"){
         value *= 0.7;
-    }else if(strcmp(location, "NW") != 0){
+    }else if(location == "NW"){
         value *= 0.9;
     }else{
         value *= 0.75;
@@ -114,37 +105,45 @@ void Property::increasePriceViaGentrification(){
     std::cout << " was increased to: $" << std::to_string(value) << std::endl;
 }
 
-
-Property Property::remove(Property * properties, int index, int size){
-    Property newGroup[size];
-    int j = 0;
-    for(int i = 0; i < size; i++, j++){
-        if(j != index){
-            newGroup[i] = properties[j];
-        }else{
-            j++;
-        }
-    }
-    properties = newGroup;
-    return properties[index];
-}
-
-Property* Property::append(Property * properties, Property* newProp, int size){
-    Property newProperties[size + 1];
-    for(int i = 0; i < size; i++) {
-        newProperties[i] = properties[i];
-    }
-    newProperties[size] = *newProp;
-}
-
 string Property::toString(){
     string locationAsString = location;
     return "A property located in the " + locationAsString + " having a value of $" +
         std::to_string(value) + " with a mortgage of $" + std::to_string(mortgage) +
-        " and a property tax of " + std::to_string(value * 100) + "%.";
+        " and a property tax of " + std::to_string(propertyTax * 100) + "%.";
 }
 
 void Property::changeRent(double amount){
     rent += amount;
 }
 
+
+double Property::haveAllTenantsPayRent(TotallyNotAVector<Property> * gameProperties){
+    double total = 0;
+    for(int i = 0; i < gameProperties->length(); i++){
+        for(int j = 0; j < gameProperties->get(i).numOfTenants; j++) {
+            total += gameProperties->getReference(i)->tenants->getReference(j)->payRent(gameProperties->getReference(i)->rent);
+        }
+    }
+    return total;
+}
+
+double Property::findAndUpdateTotalMortgage(TotallyNotAVector<Property> * gameProperties){
+    double total = 0;
+    for(int i = 0; i < gameProperties->length(); i++){
+        total += gameProperties->get(i).mortgage;
+        gameProperties->getReference(i)->updateTotalMortgage(gameProperties->get(i).mortgage);
+    }
+    return total;
+}
+
+double Property::findTotalPropertyTax(TotallyNotAVector<Property>* properties, int numOfProperties){
+    double total = 0;
+    for(int i = 0; i < numOfProperties; i++){
+        total += properties->get(i).value * properties->get(i).propertyTax;
+    }
+    return total;
+}
+
+void Property::updateTotalMortgage(double amount){
+    mortgageLeft -= amount;
+}

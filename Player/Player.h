@@ -7,22 +7,21 @@
 
 
 #include "../Property/Property.h"
+#include "../Utilities/TotallyNotAVector.h"
 
 class Player {
 
 public:
     double bank;
-    Property * properties;
-    int numOfProperties;
+    TotallyNotAVector<Property> * properties;
 
     Player();
     ~Player();
 
     void updateBank(double change);
-    bool buyProperty(Property *aProperty);
     double getBank();
     void printPropertiesToSTDOut();
-
+    void clearAllData();
 };
 
 
