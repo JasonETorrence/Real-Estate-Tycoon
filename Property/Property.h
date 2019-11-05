@@ -11,7 +11,7 @@
 
 class Property {
 
-public:
+protected:
     double value;
     std::string location;
     double mortgage;
@@ -21,8 +21,9 @@ public:
     double mortgageLeft;
     int numOfTenants;
     int numOfHomes;
-    TotallyNotAVector<Tenant> * tenants;
+    TotallyNotAVector<Tenant*> * tenants;
 
+public:
     Property();
     ~Property();
     Property(Property *pProperty);
@@ -33,17 +34,23 @@ public:
     double getMortgage() const;
     double getPropertyTax() const;
     double getMortgageLeft() const;
+    double getMaxRent() const;
+    double getRent() const;
+    int getNumOfTenants() const;
+    int getNumOfHomes() const;
+    TotallyNotAVector<Tenant*>* getTenants() const;
     void reducePriceViaDisaster();
     void reducePriceViaSMC();
     void increasePriceViaGentrification();
-    std::string toString();
-    void changeRent(double amount);
-    static double haveAllTenantsPayRent(TotallyNotAVector<Property> * gameProperties);
-    static double findAndUpdateTotalMortgage(TotallyNotAVector<Property> * gameProperties);
-    static double findTotalPropertyTax(TotallyNotAVector<Property>* properties, int numOfProperties);
+
+    virtual std::string toString();
+    virtual void changeRent();
+    virtual double haveAllTenantsPayRent();
+
+    static double findAndUpdateTotalMortgage(TotallyNotAVector<Property*> * gameProperties);
+    static double findTotalPropertyTax(TotallyNotAVector<Property*>* properties, int numOfProperties);
     void updateTotalMortgage(double amount);
-
-
+    static double findTotalMortgage(TotallyNotAVector<Property*> *gameProperties);
 };
 
 

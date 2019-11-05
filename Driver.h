@@ -6,7 +6,6 @@
 #define REAL_ESTATE_TYCOON_DRIVER_H
 
 void driver();
-void giveOptionsAsToWhatToDo();
 
 
 #endif //REAL_ESTATE_TYCOON_DRIVER_H

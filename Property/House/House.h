@@ -12,13 +12,16 @@
 class House : public Property{
 
 public:
-    Civilian tenant;
 
     House();
     ~House();
 
     void assignRandomCivilian();
     void removeTenant(int location);
+
+    std::string toString() override;
+    void changeRent() override;
+    double haveAllTenantsPayRent() override;
 };
 
 

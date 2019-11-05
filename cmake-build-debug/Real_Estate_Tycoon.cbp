@@ -94,16 +94,16 @@
 		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Player/Player.h">
 			<Option target="Real_Estate_Tycoon"/>
 		</Unit>
-		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Apartment Complex/ApartmentComplex.cpp">
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/ApartmentComplex/ApartmentComplex.cpp">
 			<Option target="Real_Estate_Tycoon"/>
 		</Unit>
-		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Apartment Complex/ApartmentComplex.h">
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/ApartmentComplex/ApartmentComplex.h">
 			<Option target="Real_Estate_Tycoon"/>
 		</Unit>
-		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Business Complex/BusinessComplex.cpp">
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/BusinessComplex/BusinessComplex.cpp">
 			<Option target="Real_Estate_Tycoon"/>
 		</Unit>
-		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/Business Complex/BusinessComplex.h">
+		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/BusinessComplex/BusinessComplex.h">
 			<Option target="Real_Estate_Tycoon"/>
 		</Unit>
 		<Unit filename="C:/Users/sarge/CLionProjects/Real Estate Tycoon/Property/House/House.cpp">

@@ -12,24 +12,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e82fa5d-56a7-4720-951d-8e041bcd908b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Utilities/TotallyNotAVector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Property/ApartmentComplex/ApartmentComplex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Property/BusinessComplex/BusinessComplex.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Driver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver.h" beforeDir="false" afterPath="$PROJECT_DIR$/Driver.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Player.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Property/Apartment Complex/ApartmentComplex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Apartment Complex/ApartmentComplex.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/Apartment Complex/ApartmentComplex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/Apartment Complex/ApartmentComplex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/ApartmentComplex/ApartmentComplex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Property/Business Complex/BusinessComplex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/BusinessComplex/BusinessComplex.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Property/House/House.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Property/House/House.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Property/House/House.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/House/House.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Property/Property.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Property.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Property/Property.h" beforeDir="false" afterPath="$PROJECT_DIR$/Property/Property.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tenant/Business/Business.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Business/Business.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tenant/Business/Business.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Business/Business.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tenant/Civilian/Civilian.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Civilian/Civilian.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tenant/Tenant.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Tenant.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tenant/Tenant.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tenant/Tenant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/TotallyNotAVector.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/TotallyNotAVector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilities/Utilities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/Utilities.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilities/Utilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/Utilities.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Real_Estate_Tycoon.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Real_Estate_Tycoon.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Real_Estate_Tycoon.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +54,20 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
@@ -53,6 +82,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Utilities" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sarge\CLionProjects\Real Estate Tycoon\Property\Business Complex" />
+      <recent name="C:\Users\sarge\CLionProjects\Real Estate Tycoon\Tenant\Business" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sarge\CLionProjects\Real Estate Tycoon\Utilities" />
     </key>
@@ -86,7 +119,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571854783822</updated>
-      <workItem from="1571854784904" duration="115464000" />
+      <workItem from="1571854784904" duration="117697000" />
+      <workItem from="1572799457709" duration="59837000" />
     </task>
     <task id="LOCAL-00001" summary="Updated player class to handle better, updated property and tenant to better handle as super classes.">
       <created>1572205600164</created>
@@ -102,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572392090592</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added the &quot;total not a vector&quot; class, and updated everything that&#10;could use that class to use that class. Memory management when moving&#10;between lists has now been simplified. Still many changes that need to&#10;be made, but the end, for the first time, is finally in sight!">
+      <created>1572765431122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572765431123</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +154,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -123,6 +166,7 @@
     <MESSAGE value="Updated player class to handle better, updated property and tenant to better handle as super classes." />
     <MESSAGE value="updated some stuff bro" />
     <MESSAGE value="updated much, split driver into its own file, having the driver method actually calling other methods, will begin debugging soon." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated much, split driver into its own file, having the driver method actually calling other methods, will begin debugging soon." />
+    <MESSAGE value="Added the &quot;total not a vector&quot; class, and updated everything that&#10;could use that class to use that class. Memory management when moving&#10;between lists has now been simplified. Still many changes that need to&#10;be made, but the end, for the first time, is finally in sight!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the &quot;total not a vector&quot; class, and updated everything that&#10;could use that class to use that class. Memory management when moving&#10;between lists has now been simplified. Still many changes that need to&#10;be made, but the end, for the first time, is finally in sight!" />
   </component>
 </project>

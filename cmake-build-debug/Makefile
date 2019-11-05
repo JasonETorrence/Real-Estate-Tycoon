@@ -176,59 +176,59 @@ Player/Player.cpp.s:
 	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Player/Player.cpp.s
 .PHONY : Player/Player.cpp.s
 
-Property/Apartment_Complex/ApartmentComplex.obj: Property/Apartment_Complex/ApartmentComplex.cpp.obj
+Property/ApartmentComplex/ApartmentComplex.obj: Property/ApartmentComplex/ApartmentComplex.cpp.obj
 
-.PHONY : Property/Apartment_Complex/ApartmentComplex.obj
-
-# target to build an object file
-Property/Apartment_Complex/ApartmentComplex.cpp.obj:
-	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/Apartment_Complex/ApartmentComplex.cpp.obj
-.PHONY : Property/Apartment_Complex/ApartmentComplex.cpp.obj
-
-Property/Apartment_Complex/ApartmentComplex.i: Property/Apartment_Complex/ApartmentComplex.cpp.i
-
-.PHONY : Property/Apartment_Complex/ApartmentComplex.i
-
-# target to preprocess a source file
-Property/Apartment_Complex/ApartmentComplex.cpp.i:
-	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/Apartment_Complex/ApartmentComplex.cpp.i
-.PHONY : Property/Apartment_Complex/ApartmentComplex.cpp.i
-
-Property/Apartment_Complex/ApartmentComplex.s: Property/Apartment_Complex/ApartmentComplex.cpp.s
-
-.PHONY : Property/Apartment_Complex/ApartmentComplex.s
-
-# target to generate assembly for a file
-Property/Apartment_Complex/ApartmentComplex.cpp.s:
-	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/Apartment_Complex/ApartmentComplex.cpp.s
-.PHONY : Property/Apartment_Complex/ApartmentComplex.cpp.s
-
-Property/Business_Complex/BusinessComplex.obj: Property/Business_Complex/BusinessComplex.cpp.obj
-
-.PHONY : Property/Business_Complex/BusinessComplex.obj
+.PHONY : Property/ApartmentComplex/ApartmentComplex.obj
 
 # target to build an object file
-Property/Business_Complex/BusinessComplex.cpp.obj:
-	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/Business_Complex/BusinessComplex.cpp.obj
-.PHONY : Property/Business_Complex/BusinessComplex.cpp.obj
+Property/ApartmentComplex/ApartmentComplex.cpp.obj:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/ApartmentComplex/ApartmentComplex.cpp.obj
+.PHONY : Property/ApartmentComplex/ApartmentComplex.cpp.obj
 
-Property/Business_Complex/BusinessComplex.i: Property/Business_Complex/BusinessComplex.cpp.i
+Property/ApartmentComplex/ApartmentComplex.i: Property/ApartmentComplex/ApartmentComplex.cpp.i
 
-.PHONY : Property/Business_Complex/BusinessComplex.i
+.PHONY : Property/ApartmentComplex/ApartmentComplex.i
 
 # target to preprocess a source file
-Property/Business_Complex/BusinessComplex.cpp.i:
-	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/Business_Complex/BusinessComplex.cpp.i
-.PHONY : Property/Business_Complex/BusinessComplex.cpp.i
+Property/ApartmentComplex/ApartmentComplex.cpp.i:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/ApartmentComplex/ApartmentComplex.cpp.i
+.PHONY : Property/ApartmentComplex/ApartmentComplex.cpp.i
 
-Property/Business_Complex/BusinessComplex.s: Property/Business_Complex/BusinessComplex.cpp.s
+Property/ApartmentComplex/ApartmentComplex.s: Property/ApartmentComplex/ApartmentComplex.cpp.s
 
-.PHONY : Property/Business_Complex/BusinessComplex.s
+.PHONY : Property/ApartmentComplex/ApartmentComplex.s
 
 # target to generate assembly for a file
-Property/Business_Complex/BusinessComplex.cpp.s:
-	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/Business_Complex/BusinessComplex.cpp.s
-.PHONY : Property/Business_Complex/BusinessComplex.cpp.s
+Property/ApartmentComplex/ApartmentComplex.cpp.s:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/ApartmentComplex/ApartmentComplex.cpp.s
+.PHONY : Property/ApartmentComplex/ApartmentComplex.cpp.s
+
+Property/BusinessComplex/BusinessComplex.obj: Property/BusinessComplex/BusinessComplex.cpp.obj
+
+.PHONY : Property/BusinessComplex/BusinessComplex.obj
+
+# target to build an object file
+Property/BusinessComplex/BusinessComplex.cpp.obj:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/BusinessComplex/BusinessComplex.cpp.obj
+.PHONY : Property/BusinessComplex/BusinessComplex.cpp.obj
+
+Property/BusinessComplex/BusinessComplex.i: Property/BusinessComplex/BusinessComplex.cpp.i
+
+.PHONY : Property/BusinessComplex/BusinessComplex.i
+
+# target to preprocess a source file
+Property/BusinessComplex/BusinessComplex.cpp.i:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/BusinessComplex/BusinessComplex.cpp.i
+.PHONY : Property/BusinessComplex/BusinessComplex.cpp.i
+
+Property/BusinessComplex/BusinessComplex.s: Property/BusinessComplex/BusinessComplex.cpp.s
+
+.PHONY : Property/BusinessComplex/BusinessComplex.s
+
+# target to generate assembly for a file
+Property/BusinessComplex/BusinessComplex.cpp.s:
+	$(MAKE) -f CMakeFiles\Real_Estate_Tycoon.dir\build.make CMakeFiles/Real_Estate_Tycoon.dir/Property/BusinessComplex/BusinessComplex.cpp.s
+.PHONY : Property/BusinessComplex/BusinessComplex.cpp.s
 
 Property/House/House.obj: Property/House/House.cpp.obj
 
@@ -434,12 +434,12 @@ help:
 	@echo ... Player/Player.obj
 	@echo ... Player/Player.i
 	@echo ... Player/Player.s
-	@echo ... Property/Apartment_Complex/ApartmentComplex.obj
-	@echo ... Property/Apartment_Complex/ApartmentComplex.i
-	@echo ... Property/Apartment_Complex/ApartmentComplex.s
-	@echo ... Property/Business_Complex/BusinessComplex.obj
-	@echo ... Property/Business_Complex/BusinessComplex.i
-	@echo ... Property/Business_Complex/BusinessComplex.s
+	@echo ... Property/ApartmentComplex/ApartmentComplex.obj
+	@echo ... Property/ApartmentComplex/ApartmentComplex.i
+	@echo ... Property/ApartmentComplex/ApartmentComplex.s
+	@echo ... Property/BusinessComplex/BusinessComplex.obj
+	@echo ... Property/BusinessComplex/BusinessComplex.i
+	@echo ... Property/BusinessComplex/BusinessComplex.s
 	@echo ... Property/House/House.obj
 	@echo ... Property/House/House.i
 	@echo ... Property/House/House.s

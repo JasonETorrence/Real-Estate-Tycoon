@@ -11,17 +11,21 @@
 
 class Player {
 
-public:
+protected:
     double bank;
-    TotallyNotAVector<Property> * properties;
+    TotallyNotAVector<Property*> * properties;
+
+public:
 
     Player();
     ~Player();
 
     void updateBank(double change);
     double getBank();
+    TotallyNotAVector<Property *> *getProperties();
     void printPropertiesToSTDOut();
-    void clearAllData();
+
+
 };
 
 

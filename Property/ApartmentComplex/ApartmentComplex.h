@@ -14,6 +14,10 @@ public:
     ApartmentComplex();
     void assignRandomCivilians();
     void removeTenant(int location);
+
+    std::string toString() override;
+    void changeRent() override;
+    double haveAllTenantsPayRent() override;
 };
 
 

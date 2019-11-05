@@ -6,6 +6,10 @@
 #include <cstdlib>
 #include "Driver.h"
 
+/**
+ * main: it's main. seeds random and calls the driver.
+ * @return possible error code
+ */
 int main() {
     srand(time(0));
     driver();

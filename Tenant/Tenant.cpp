@@ -3,36 +3,43 @@
 //
 
 #include <cstdlib>
-#include <iostream>
 #include "Tenant.h"
 
+/**
+ * Tenant constructor
+ */
 Tenant::Tenant(){
-    budget = (rand() % 4501) + 500;
+    budget = 0;
     agreeability = (rand() % 5) + 1;
 }
 
+/**
+ * Tenant deconstructor
+ */
 Tenant::~Tenant() = default;
 
+/**
+ * Tenant copy constructor
+ *
+ * @param aTenant : the tenant to copy
+ */
 Tenant::Tenant(const Tenant &aTenant) noexcept{
     budget = aTenant.budget;
     agreeability = aTenant.agreeability;
 }
 
-double Tenant::payRent(double rent){
-    if(rent > budget){
-        if(agreeability > 2){
-            std::cout << "A tenant moves out due to rent being too high." << std::endl;
-            moveOut();
-        }else{
-            std::cout << "A tenant refuses to pay." << std::endl;
-            return 0;
-        }
-    }else{
-        std::cout << "A tenant pays: $" << rent << std::endl;
-        return rent;
-    }
+/**
+ * getBudget: returns the tenant's budget value
+ * @return the tenant's budget value
+ */
+double Tenant::getBudget(){
+    return budget;
 }
 
-void Tenant::moveOut(){
-    delete(this);
+/**
+ * getAgreeability: returns the tenant's agreeability value
+ * @return the tenant's agreeability value
+ */
+int Tenant::getAgreeability(){
+    return agreeability;
 }

@@ -9,10 +9,13 @@
 #include "../Tenant.h"
 
 class Business : public Tenant{
+protected:
+    int size;
 public:
     Business();
     ~Business();
 
+    int getSize();
 };
 
 

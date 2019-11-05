@@ -16,13 +16,13 @@ add_executable(
         Utilities/Utilities.h
         Property/House/House.cpp
         Property/House/House.h
-        "Property/Business Complex/BusinessComplex.cpp"
-        "Property/Business Complex/BusinessComplex.h"
-        "Property/Apartment Complex/ApartmentComplex.cpp"
-        "Property/Apartment Complex/ApartmentComplex.h"
+        Property/BusinessComplex/BusinessComplex.cpp
+        Property/BusinessComplex/BusinessComplex.h
+        Property/ApartmentComplex/ApartmentComplex.cpp
+        Property/ApartmentComplex/ApartmentComplex.h
         Tenant/Civilian/Civilian.cpp
         Tenant/Civilian/Civilian.h
         Tenant/Business/Business.cpp
         Tenant/Business/Business.h
         Driver.cpp
-        Driver.h Utilities/TotallyNotAVector.h)
+        Driver.h Utilities/TotallyNotAVector.h )

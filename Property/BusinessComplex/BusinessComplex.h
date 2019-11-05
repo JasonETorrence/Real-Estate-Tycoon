@@ -9,13 +9,20 @@
 #include "../../Tenant/Business/Business.h"
 
 class BusinessComplex : public Property{
-
+protected:
+    double smallRent;
+    double mediumRent;
+    double largeRent;
 public:
-
     BusinessComplex();
     void assignRandomBusinesses();
     void removeTenant(int location);
 
+    std::string toString() override;
+
+    void changeRent() override;
+    double haveAllTenantsPayRent() override;
+    double getRentAccordingToSize(int size);
 };
 
 

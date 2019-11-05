@@ -6,19 +6,17 @@
 #define REAL_ESTATE_TYCOON_TENANT_H
 
 class Tenant {
-
-public:
+protected:
     double budget;
     int agreeability;
-
+public:
     Tenant();
     ~Tenant();
 
     Tenant(const Tenant &aTenant) noexcept;
 
-    double payRent(double rent);
-    void moveOut();
-
+    double getBudget();
+    int getAgreeability();
 };
 
 
